@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>TapSearch</title>
+	</head>
+	<body>
+	<center><h1>Welcome to TapSearch</h1>
+	<form method="post" action="indextext">
+            <textarea name="text" rows="20" cols="80" placeholder="Add text"></textarea>
+			<br>
+			<input type="text" name="word" placeholder="Search for....">
+			<br>
+            <input type="submit" name="indextext" value="Index">
+        </form>
+		<form method="post" action="cleartext">
+	            <input type="submit" name="cleartext" value="Clear">
+	        </form>
+			<form method="post" action="search">
+		            <input type="submit" name="search" value="Search">
+		        </form>
+	</center>
+	</body>
+</html>

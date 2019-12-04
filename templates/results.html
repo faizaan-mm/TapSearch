@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>TapSearch</title>
+	</head>
+	<body>
+		<center>
+		{% for i in result %}
+		Paragraph {{ i[0] }}
+		<br>
+		{% endfor %}
+		<br>
+		<a href="{{ url_for('index') }}">Go back</a>
+		</center>
+	</body>
+</html>
