@@ -46,3 +46,7 @@ def search():
 	word_frequency = word_frequency[:10]
 	print(word_frequency)
 	return render_template('results.html', result = word_frequency)
+
+
+if __name__ == '__main__':
+	app.run(threaded=True, port=5000)
