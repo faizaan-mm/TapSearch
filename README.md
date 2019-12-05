@@ -10,3 +10,4 @@ Given a word to search for, it lists out the top 10 paragraphs in which the word
 2. After adding the text to the required fields, click on Index button to preprocess the input and index the inputs into different paragraphs.
 3. Click on Search button to find the paragrahs with the highest occurence of the given word.
 4. Click on Clear button to clear all the indices that were previously present.
+5. Make sure you clear the indices before starting a new search.
